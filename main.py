@@ -1,7 +1,7 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow
-from menu_projetos_reduzido_2 import Ui_MainWindow  # UI convertida com pyside6-uic
-import sprites  # Importa os recursos (ex: imagens)
+from menu_projetos import Ui_MainWindow 
+import sprites 
 
 class App(QMainWindow):
     def __init__(self):

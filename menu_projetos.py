@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'teste_projetos.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.7.0
+## Created by: Qt User Interface Compiler version 6.9.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -24,7 +24,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1280, 1080)
+        MainWindow.resize(1280, 946)
         sizePolicy = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -110,7 +110,7 @@ class Ui_MainWindow(object):
         self.b_inicio.setObjectName(u"b_inicio")
         self.b_inicio.setMinimumSize(QSize(120, 30))
         self.b_inicio.setMaximumSize(QSize(120, 30))
-        self.b_inicio.setCursor(QCursor(Qt.PointingHandCursor))
+        self.b_inicio.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
         self.b_inicio.setLayoutDirection(Qt.LeftToRight)
         self.b_inicio.setStyleSheet(u"QPushButton{\n"
 "	background-image: url(:/icones/home.svg);\n"
@@ -118,10 +118,14 @@ class Ui_MainWindow(object):
 "	background-position: left left;\n"
 "	qproperty-alignment: AlignRight;\n"
 "	margin-right: 16px;\n"
-"	font: 75 10pt \"Arial\";\n"
+"	font: 10pt \"MS Shell Dlg 2\";\n"
 "}\n"
-"QPushButton:hover {\n"
-"    color: #3498DB;\n"
+"\n"
+"QPushButton:hover{\n"
+"	color: rgb(0, 153, 255);\n"
+"	\n"
+"	font: 11pt \"MS Shell Dlg 2\";\n"
+"\n"
 "}\n"
 "\n"
 "")
@@ -132,21 +136,20 @@ class Ui_MainWindow(object):
         self.d_projetos.setObjectName(u"d_projetos")
         self.d_projetos.setMinimumSize(QSize(120, 30))
         self.d_projetos.setMaximumSize(QSize(120, 30))
-        self.d_projetos.setCursor(QCursor(Qt.PointingHandCursor))
+        self.d_projetos.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
         self.d_projetos.setStyleSheet(u"QPushButton{\n"
 "	background-image: url(:/icones/workness.svg);\n"
 "	background-repeat: no-repeat;\n"
 "	background-position: left;\n"
 "	qproperty-alignment: AlignRight;\n"
-"	font: 75 10pt \"Arial\";\n"
+"	font: 75 10pt \"MS Shell Dlg 2\";\n"
 "	color: rgb(52, 152, 219);\n"
 "}\n"
 "\n"
 "QPushButton:hover{\n"
 "	color: rgb(0, 153, 255);\n"
 "	\n"
-"	font: 8pt \"MS Shell Dlg 2\";\n"
-"	text-decoration: underline;\n"
+"	font: 11pt \"MS Shell Dlg 2\";\n"
 "\n"
 "}\n"
 "\n"
@@ -160,12 +163,22 @@ class Ui_MainWindow(object):
         self.c_contatos.setObjectName(u"c_contatos")
         self.c_contatos.setMinimumSize(QSize(120, 30))
         self.c_contatos.setMaximumSize(QSize(120, 30))
-        self.c_contatos.setCursor(QCursor(Qt.PointingHandCursor))
-        self.c_contatos.setStyleSheet(u"background-image: url(:/icones/contact.svg);\n"
-"background-repeat: no-repeat;\n"
-"background-position: left;\n"
-"qproperty-alignment: AlignRight;\n"
-"font: 75 10pt \"Arial\";")
+        self.c_contatos.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.c_contatos.setStyleSheet(u"QPushButton{\n"
+"	background-image: url(:/icones/contact.svg);\n"
+"	background-repeat: no-repeat;\n"
+"	background-position: left;\n"
+"	qproperty-alignment: AlignRight;\n"
+"	font: 10pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"	color: rgb(0, 153, 255);\n"
+"	\n"
+"	font: 11pt \"MS Shell Dlg 2\";\n"
+"	\n"
+"\n"
+"}")
 
         self.verticalLayout_2.addWidget(self.c_contatos)
 
@@ -209,13 +222,23 @@ class Ui_MainWindow(object):
         self.a_informacoes.setEnabled(True)
         self.a_informacoes.setMinimumSize(QSize(120, 30))
         self.a_informacoes.setMaximumSize(QSize(120, 30))
-        self.a_informacoes.setCursor(QCursor(Qt.PointingHandCursor))
+        self.a_informacoes.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
         self.a_informacoes.setLayoutDirection(Qt.RightToLeft)
-        self.a_informacoes.setStyleSheet(u"background-image: url(:/icones/help.svg);\n"
-"background-repeat: no-repeat;\n"
-"background-position: left;\n"
-"qproperty-alignment: AlignRight;\n"
-"font: 75 10pt \"Arial\";")
+        self.a_informacoes.setStyleSheet(u"QPushButton{\n"
+"	background-image: url(:/icones/help.svg);\n"
+"	background-repeat: no-repeat;\n"
+"	background-position: left;\n"
+"	qproperty-alignment: AlignRight;\n"
+"	font: 10pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover{\n"
+"	color: rgb(0, 153, 255);\n"
+"	\n"
+"	font: 11pt \"MS Shell Dlg 2\";\n"
+"	\n"
+"}")
 
         self.verticalLayout_3.addWidget(self.a_informacoes)
 
@@ -223,15 +246,23 @@ class Ui_MainWindow(object):
         self.b_sair.setObjectName(u"b_sair")
         self.b_sair.setMinimumSize(QSize(120, 30))
         self.b_sair.setMaximumSize(QSize(120, 16777215))
-        self.b_sair.setCursor(QCursor(Qt.PointingHandCursor))
+        self.b_sair.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
         self.b_sair.setLayoutDirection(Qt.LeftToRight)
         self.b_sair.setStyleSheet(u"QPushButton{\n"
 "	background-image: url(:/icones/logout.svg);\n"
 "	background-repeat: no-repeat;\n"
 "	background-position: left;\n"
 "	qproperty-alignment: AlignRight;\n"
-"	font: 75 10pt \"Arial\";\n"
-"	margin-right: 20px;\n"
+"	font: 10pt \"MS Shell Dlg 2\";\n"
+"	margin-right: 30px;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover{\n"
+"	color: rgb(0, 153, 255);\n"
+"	\n"
+"	font: 11pt \"MS Shell Dlg 2\";\n"
+"	\n"
 "}")
 
         self.verticalLayout_3.addWidget(self.b_sair)
@@ -275,7 +306,8 @@ class Ui_MainWindow(object):
         self.barra_widgets = QTabWidget(self.b_conteudo)
         self.barra_widgets.setObjectName(u"barra_widgets")
         self.barra_widgets.setMinimumSize(QSize(720, 720))
-        self.barra_widgets.setStyleSheet(u"")
+        self.barra_widgets.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(200, 230, 255, 255), stop:1 rgba(240, 250, 255, 255));\n"
+"color: black;")
         self.barra_widgets.setTabShape(QTabWidget.Triangular)
         self.barra_widgets.setIconSize(QSize(16, 16))
         self.barra_widgets.setElideMode(Qt.ElideNone)
@@ -322,11 +354,11 @@ class Ui_MainWindow(object):
         self.a_top_conteudo_2.setMinimumSize(QSize(1080, 320))
         self.a_top_conteudo_2.setMaximumSize(QSize(1920, 330))
         self.a_top_conteudo_2.setStyleSheet(u"")
-        self.a_top_conteudo_2.setFrameShape(QFrame.StyledPanel)
+        self.a_top_conteudo_2.setFrameShape(QFrame.NoFrame)
         self.a_top_conteudo_2.setFrameShadow(QFrame.Raised)
         self.frame_11 = QFrame(self.a_top_conteudo_2)
         self.frame_11.setObjectName(u"frame_11")
-        self.frame_11.setGeometry(QRect(393, 10, 350, 320))
+        self.frame_11.setGeometry(QRect(428, 10, 350, 320))
         self.frame_11.setMinimumSize(QSize(350, 320))
         self.frame_11.setMaximumSize(QSize(260, 300))
         self.frame_11.setStyleSheet(u"QFrame{\n"
@@ -341,7 +373,7 @@ class Ui_MainWindow(object):
 "}")
         self.frame_22 = QFrame(self.a_top_conteudo_2)
         self.frame_22.setObjectName(u"frame_22")
-        self.frame_22.setGeometry(QRect(110, 55, 265, 240))
+        self.frame_22.setGeometry(QRect(135, 55, 265, 240))
         sizePolicy4.setHeightForWidth(self.frame_22.sizePolicy().hasHeightForWidth())
         self.frame_22.setSizePolicy(sizePolicy4)
         self.frame_22.setStyleSheet(u"background-image: url(:/icones/pagina_web-1.png);\n"
@@ -353,7 +385,7 @@ class Ui_MainWindow(object):
         self.frame_22.setFrameShadow(QFrame.Raised)
         self.frame_23 = QFrame(self.a_top_conteudo_2)
         self.frame_23.setObjectName(u"frame_23")
-        self.frame_23.setGeometry(QRect(760, 55, 265, 240))
+        self.frame_23.setGeometry(QRect(805, 55, 265, 240))
         sizePolicy4.setHeightForWidth(self.frame_23.sizePolicy().hasHeightForWidth())
         self.frame_23.setSizePolicy(sizePolicy4)
         self.frame_23.setStyleSheet(u"background-image: url(:/icones/pagina_web-2.png);\n"
@@ -407,7 +439,7 @@ class Ui_MainWindow(object):
         self.b_subtitulo_2.setGeometry(QRect(0, 54, 1155, 45))
         self.b_subtitulo_2.setMinimumSize(QSize(0, 30))
         self.b_subtitulo_2.setStyleSheet(u"background-color: none;")
-        self.b_subtitulo_2.setFrameShape(QFrame.StyledPanel)
+        self.b_subtitulo_2.setFrameShape(QFrame.NoFrame)
         self.b_subtitulo_2.setFrameShadow(QFrame.Raised)
         self.verticalLayout_15 = QVBoxLayout(self.b_subtitulo_2)
         self.verticalLayout_15.setObjectName(u"verticalLayout_15")
@@ -442,13 +474,13 @@ class Ui_MainWindow(object):
         self.a_cards_2.setObjectName(u"a_cards_2")
         sizePolicy5.setHeightForWidth(self.a_cards_2.sizePolicy().hasHeightForWidth())
         self.a_cards_2.setSizePolicy(sizePolicy5)
-        self.a_cards_2.setMinimumSize(QSize(1800, 140))
+        self.a_cards_2.setMinimumSize(QSize(1130, 140))
         self.a_cards_2.setMaximumSize(QSize(16777215, 250))
         self.a_cards_2.setSizeIncrement(QSize(0, 150))
         self.a_card_esquerdo_2 = QFrame(self.a_cards_2)
         self.a_card_esquerdo_2.setObjectName(u"a_card_esquerdo_2")
-        self.a_card_esquerdo_2.setGeometry(QRect(180, 0, 192, 220))
-        self.a_card_esquerdo_2.setMinimumSize(QSize(180, 220))
+        self.a_card_esquerdo_2.setGeometry(QRect(180, 0, 172, 175))
+        self.a_card_esquerdo_2.setMinimumSize(QSize(162, 175))
         self.a_card_esquerdo_2.setStyleSheet(u"background-color: #a1c1e1;\n"
 "border: 1px solid #7aa6d4;\n"
 "border-radius: 10px;")
@@ -456,12 +488,12 @@ class Ui_MainWindow(object):
         self.a_card_esquerdo_2.setFrameShadow(QFrame.Raised)
         self.a_icone_top_4 = QLabel(self.a_card_esquerdo_2)
         self.a_icone_top_4.setObjectName(u"a_icone_top_4")
-        self.a_icone_top_4.setGeometry(QRect(66, 15, 60, 60))
+        self.a_icone_top_4.setGeometry(QRect(56, 15, 60, 60))
         self.a_icone_top_4.setStyleSheet(u"image: url(:/icones/photo.svg);\n"
 "border: none;")
         self.c_titulo_4 = QLabel(self.a_card_esquerdo_2)
         self.c_titulo_4.setObjectName(u"c_titulo_4")
-        self.c_titulo_4.setGeometry(QRect(10, 152, 171, 30))
+        self.c_titulo_4.setGeometry(QRect(22, 100, 145, 30))
         self.c_titulo_4.setStyleSheet(u"border: none;\n"
 "font: 12pt \"Segoe UI\";\n"
 "color: #222;\n"
@@ -470,20 +502,20 @@ class Ui_MainWindow(object):
         self.c_titulo_4.setAlignment(Qt.AlignCenter)
         self.d_subtitulo_4 = QLabel(self.a_card_esquerdo_2)
         self.d_subtitulo_4.setObjectName(u"d_subtitulo_4")
-        self.d_subtitulo_4.setGeometry(QRect(5, 180, 180, 30))
+        self.d_subtitulo_4.setGeometry(QRect(5, 130, 162, 30))
         self.d_subtitulo_4.setStyleSheet(u"border: none;\n"
 "border-radius: none;")
         self.d_subtitulo_4.setAlignment(Qt.AlignCenter)
         self.b_icone_titulo_4 = QLabel(self.a_card_esquerdo_2)
         self.b_icone_titulo_4.setObjectName(u"b_icone_titulo_4")
-        self.b_icone_titulo_4.setGeometry(QRect(6, 160, 21, 16))
+        self.b_icone_titulo_4.setGeometry(QRect(2, 108, 21, 16))
         self.b_icone_titulo_4.setStyleSheet(u"image: url(:/icones/check.svg);\n"
 "image: url(:/icones/shield.svg);\n"
 "border: none;")
         self.b_card_centro_2 = QFrame(self.a_cards_2)
         self.b_card_centro_2.setObjectName(u"b_card_centro_2")
-        self.b_card_centro_2.setGeometry(QRect(470, 0, 192, 220))
-        self.b_card_centro_2.setMinimumSize(QSize(192, 220))
+        self.b_card_centro_2.setGeometry(QRect(470, 0, 172, 175))
+        self.b_card_centro_2.setMinimumSize(QSize(162, 120))
         self.b_card_centro_2.setStyleSheet(u"background-color: #a1c1e1;\n"
 "border: 1px solid #7aa6d4;\n"
 "border-radius: 10px;")
@@ -491,12 +523,12 @@ class Ui_MainWindow(object):
         self.b_card_centro_2.setFrameShadow(QFrame.Raised)
         self.a_icone_top_5 = QLabel(self.b_card_centro_2)
         self.a_icone_top_5.setObjectName(u"a_icone_top_5")
-        self.a_icone_top_5.setGeometry(QRect(66, 15, 60, 60))
+        self.a_icone_top_5.setGeometry(QRect(56, 15, 60, 60))
         self.a_icone_top_5.setStyleSheet(u"image: url(:/icones/camera.svg);\n"
 "border: none;")
         self.c_titulo_5 = QLabel(self.b_card_centro_2)
         self.c_titulo_5.setObjectName(u"c_titulo_5")
-        self.c_titulo_5.setGeometry(QRect(10, 152, 171, 30))
+        self.c_titulo_5.setGeometry(QRect(15, 100, 152, 30))
         self.c_titulo_5.setStyleSheet(u"border: none;\n"
 "font: 12pt \"Segoe UI\";\n"
 "color: #222;\n"
@@ -505,20 +537,20 @@ class Ui_MainWindow(object):
         self.c_titulo_5.setAlignment(Qt.AlignCenter)
         self.d_subtitulo_5 = QLabel(self.b_card_centro_2)
         self.d_subtitulo_5.setObjectName(u"d_subtitulo_5")
-        self.d_subtitulo_5.setGeometry(QRect(5, 180, 180, 30))
+        self.d_subtitulo_5.setGeometry(QRect(5, 130, 162, 30))
         self.d_subtitulo_5.setStyleSheet(u"border: none;\n"
 "border-radius: none;")
         self.d_subtitulo_5.setAlignment(Qt.AlignCenter)
         self.b_icone_titulo_5 = QLabel(self.b_card_centro_2)
         self.b_icone_titulo_5.setObjectName(u"b_icone_titulo_5")
-        self.b_icone_titulo_5.setGeometry(QRect(25, 160, 21, 16))
+        self.b_icone_titulo_5.setGeometry(QRect(20, 108, 21, 16))
         self.b_icone_titulo_5.setStyleSheet(u"image: url(:/icones/check.svg);\n"
 "image: url(:/icones/shield.svg);\n"
 "border: none;")
         self.c_card_direito_2 = QFrame(self.a_cards_2)
         self.c_card_direito_2.setObjectName(u"c_card_direito_2")
-        self.c_card_direito_2.setGeometry(QRect(744, 0, 192, 220))
-        self.c_card_direito_2.setMinimumSize(QSize(192, 220))
+        self.c_card_direito_2.setGeometry(QRect(744, 0, 172, 175))
+        self.c_card_direito_2.setMinimumSize(QSize(162, 175))
         self.c_card_direito_2.setStyleSheet(u"background-color: #a1c1e1;\n"
 "border: 1px solid #7aa6d4;\n"
 "border-radius: 10px;")
@@ -526,12 +558,12 @@ class Ui_MainWindow(object):
         self.c_card_direito_2.setFrameShadow(QFrame.Raised)
         self.a_icone_top_6 = QLabel(self.c_card_direito_2)
         self.a_icone_top_6.setObjectName(u"a_icone_top_6")
-        self.a_icone_top_6.setGeometry(QRect(66, 15, 60, 60))
+        self.a_icone_top_6.setGeometry(QRect(56, 15, 60, 60))
         self.a_icone_top_6.setStyleSheet(u"image: url(:/icones/globo.svg);\n"
 "border: none;")
         self.c_titulo_6 = QLabel(self.c_card_direito_2)
         self.c_titulo_6.setObjectName(u"c_titulo_6")
-        self.c_titulo_6.setGeometry(QRect(10, 152, 175, 30))
+        self.c_titulo_6.setGeometry(QRect(20, 100, 142, 30))
         self.c_titulo_6.setStyleSheet(u"border: none;\n"
 "font: 12pt \"Segoe UI\";\n"
 "color: #222;\n"
@@ -540,13 +572,13 @@ class Ui_MainWindow(object):
         self.c_titulo_6.setAlignment(Qt.AlignCenter)
         self.d_subtitulo_6 = QLabel(self.c_card_direito_2)
         self.d_subtitulo_6.setObjectName(u"d_subtitulo_6")
-        self.d_subtitulo_6.setGeometry(QRect(5, 180, 180, 30))
+        self.d_subtitulo_6.setGeometry(QRect(5, 130, 162, 30))
         self.d_subtitulo_6.setStyleSheet(u"border: none;\n"
 "border-radius: none;")
         self.d_subtitulo_6.setAlignment(Qt.AlignCenter)
         self.b_icone_titulo_6 = QLabel(self.c_card_direito_2)
         self.b_icone_titulo_6.setObjectName(u"b_icone_titulo_6")
-        self.b_icone_titulo_6.setGeometry(QRect(56, 160, 21, 16))
+        self.b_icone_titulo_6.setGeometry(QRect(50, 108, 21, 16))
         self.b_icone_titulo_6.setStyleSheet(u"image: url(:/icones/check.svg);\n"
 "image: url(:/icones/shield.svg);\n"
 "border: none;")
@@ -561,33 +593,13 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_16.addWidget(self.a_linha_2)
 
-        self.b_descricao_titulo_2 = QFrame(self.b_cards_e_descricao_2)
-        self.b_descricao_titulo_2.setObjectName(u"b_descricao_titulo_2")
-        sizePolicy5.setHeightForWidth(self.b_descricao_titulo_2.sizePolicy().hasHeightForWidth())
-        self.b_descricao_titulo_2.setSizePolicy(sizePolicy5)
-        self.b_descricao_titulo_2.setMinimumSize(QSize(0, 25))
-        self.b_descricao_titulo_2.setMaximumSize(QSize(16777215, 25))
-        self.b_descricao_titulo_2.setFrameShape(QFrame.NoFrame)
-        self.b_descricao_titulo_2.setFrameShadow(QFrame.Raised)
-        self.descricao_titulo_2 = QLabel(self.b_descricao_titulo_2)
-        self.descricao_titulo_2.setObjectName(u"descricao_titulo_2")
-        self.descricao_titulo_2.setGeometry(QRect(0, 0, 101, 25))
-        sizePolicy4.setHeightForWidth(self.descricao_titulo_2.sizePolicy().hasHeightForWidth())
-        self.descricao_titulo_2.setSizePolicy(sizePolicy4)
-        self.descricao_titulo_2.setMinimumSize(QSize(0, 25))
-        self.descricao_titulo_2.setMaximumSize(QSize(16777215, 25))
-        self.descricao_titulo_2.setStyleSheet(u"color: #222;\n"
-"font: 12pt \"Segoe UI\";")
-
-        self.verticalLayout_16.addWidget(self.b_descricao_titulo_2)
-
         self.c_descricao_texto_2 = QFrame(self.b_cards_e_descricao_2)
         self.c_descricao_texto_2.setObjectName(u"c_descricao_texto_2")
-        self.c_descricao_texto_2.setFrameShape(QFrame.StyledPanel)
+        self.c_descricao_texto_2.setFrameShape(QFrame.NoFrame)
         self.c_descricao_texto_2.setFrameShadow(QFrame.Raised)
         self.descricao_texto_2 = QLabel(self.c_descricao_texto_2)
         self.descricao_texto_2.setObjectName(u"descricao_texto_2")
-        self.descricao_texto_2.setGeometry(QRect(0, 0, 1130, 275))
+        self.descricao_texto_2.setGeometry(QRect(1, 32, 1119, 251))
         sizePolicy5.setHeightForWidth(self.descricao_texto_2.sizePolicy().hasHeightForWidth())
         self.descricao_texto_2.setSizePolicy(sizePolicy5)
         self.descricao_texto_2.setMinimumSize(QSize(1080, 220))
@@ -595,6 +607,13 @@ class Ui_MainWindow(object):
         self.descricao_texto_2.setStyleSheet(u"font: 9pt \"Segoe UI\";")
         self.descricao_texto_2.setFrameShadow(QFrame.Plain)
         self.descricao_texto_2.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.descricao_titulo_2 = QLabel(self.c_descricao_texto_2)
+        self.descricao_titulo_2.setObjectName(u"descricao_titulo_2")
+        self.descricao_titulo_2.setGeometry(QRect(1, 1, 100, 25))
+        self.descricao_titulo_2.setMinimumSize(QSize(100, 25))
+        self.descricao_titulo_2.setMaximumSize(QSize(100, 25))
+        self.descricao_titulo_2.setStyleSheet(u"color: #222;\n"
+"font: 12pt \"Segoe UI\";")
 
         self.verticalLayout_16.addWidget(self.c_descricao_texto_2)
 
@@ -643,7 +662,7 @@ class Ui_MainWindow(object):
         self.a_top_conteudo.setSizePolicy(sizePolicy4)
         self.a_top_conteudo.setMinimumSize(QSize(1080, 320))
         self.a_top_conteudo.setMaximumSize(QSize(1920, 330))
-        self.a_top_conteudo.setStyleSheet(u"")
+        self.a_top_conteudo.setStyleSheet(u"background-color: transparent;")
         self.a_top_conteudo.setFrameShape(QFrame.StyledPanel)
         self.a_top_conteudo.setFrameShadow(QFrame.Raised)
         self.frame_10 = QFrame(self.a_top_conteudo)
@@ -706,7 +725,7 @@ class Ui_MainWindow(object):
         self.a_titulo = QFrame(self.a_titulo_subtitulo)
         self.a_titulo.setObjectName(u"a_titulo")
         self.a_titulo.setGeometry(QRect(0, 0, 1144, 48))
-        self.a_titulo.setStyleSheet(u"background-color: none;")
+        self.a_titulo.setStyleSheet(u"background-color: transparent;")
         self.a_titulo.setFrameShape(QFrame.NoFrame)
         self.a_titulo.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_4 = QHBoxLayout(self.a_titulo)
@@ -729,7 +748,7 @@ class Ui_MainWindow(object):
         self.b_subtitulo.setObjectName(u"b_subtitulo")
         self.b_subtitulo.setGeometry(QRect(0, 54, 1155, 45))
         self.b_subtitulo.setMinimumSize(QSize(0, 30))
-        self.b_subtitulo.setStyleSheet(u"background-color: none;")
+        self.b_subtitulo.setStyleSheet(u"background-color: transparent;")
         self.b_subtitulo.setFrameShape(QFrame.StyledPanel)
         self.b_subtitulo.setFrameShadow(QFrame.Raised)
         self.verticalLayout_11 = QVBoxLayout(self.b_subtitulo)
@@ -755,13 +774,13 @@ class Ui_MainWindow(object):
 
         self.b_cards_e_descricao = QFrame(self.b_conteudo_central)
         self.b_cards_e_descricao.setObjectName(u"b_cards_e_descricao")
-        self.b_cards_e_descricao.setStyleSheet(u"background-color: none;")
+        self.b_cards_e_descricao.setStyleSheet(u"background-color: transparent;")
         self.b_cards_e_descricao.setFrameShape(QFrame.NoFrame)
         self.b_cards_e_descricao.setFrameShadow(QFrame.Raised)
         self.verticalLayout_10 = QVBoxLayout(self.b_cards_e_descricao)
         self.verticalLayout_10.setSpacing(6)
         self.verticalLayout_10.setObjectName(u"verticalLayout_10")
-        self.verticalLayout_10.setContentsMargins(9, 0, 9, 0)
+        self.verticalLayout_10.setContentsMargins(9, 9, 9, 0)
         self.a_cards = QWidget(self.b_cards_e_descricao)
         self.a_cards.setObjectName(u"a_cards")
         self.a_cards.setMinimumSize(QSize(1800, 140))
@@ -910,7 +929,8 @@ class Ui_MainWindow(object):
         self.descricao_texto.setGeometry(QRect(0, 0, 1130, 300))
         self.descricao_texto.setMinimumSize(QSize(1080, 300))
         self.descricao_texto.setMaximumSize(QSize(16777215, 275))
-        self.descricao_texto.setStyleSheet(u"font: 9pt \"Segoe UI\";")
+        self.descricao_texto.setStyleSheet(u"font: 9pt \"Segoe UI\";\n"
+"color: black;")
         self.descricao_texto.setFrameShadow(QFrame.Plain)
         self.descricao_texto.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
 
@@ -939,7 +959,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.barra_widgets.setCurrentIndex(1)
+        self.barra_widgets.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -951,25 +971,24 @@ class Ui_MainWindow(object):
         self.b_nome_usuario.setText(QCoreApplication.translate("MainWindow", u"Davi Almeida", None))
         self.b_inicio.setText(QCoreApplication.translate("MainWindow", u"Inicio", None))
         self.d_projetos.setText(QCoreApplication.translate("MainWindow", u"Projetos", None))
-        self.c_contatos.setText(QCoreApplication.translate("MainWindow", u" Contatos", None))
-        self.a_informacoes.setText(QCoreApplication.translate("MainWindow", u"       Informa\u00e7\u00f5es", None))
+        self.c_contatos.setText(QCoreApplication.translate("MainWindow", u"Contatos", None))
+        self.a_informacoes.setText(QCoreApplication.translate("MainWindow", u"    Informa\u00e7\u00f5es", None))
         self.b_sair.setText(QCoreApplication.translate("MainWindow", u"Sair", None))
         self.version.setText(QCoreApplication.translate("MainWindow", u"Vers\u00e3o 0.1.4", None))
         self.titulo_2.setText(QCoreApplication.translate("MainWindow", u"PIXEL PHOTO", None))
         self.subtitulo_2.setText(QCoreApplication.translate("MainWindow", u"CONHECENDO AS MARAVILHAS DO MUNDO!", None))
         self.a_icone_top_4.setText("")
-        self.c_titulo_4.setText(QCoreApplication.translate("MainWindow", u"   Cole\u00e7\u00e3o de Registros", None))
-        self.d_subtitulo_4.setText(QCoreApplication.translate("MainWindow", u"Pequenas Lojas e Autonomos", None))
+        self.c_titulo_4.setText(QCoreApplication.translate("MainWindow", u"Cole\u00e7\u00e3o de Registros", None))
+        self.d_subtitulo_4.setText(QCoreApplication.translate("MainWindow", u"     Pequenas Lojas e Autonomos", None))
         self.b_icone_titulo_4.setText("")
         self.a_icone_top_5.setText("")
-        self.c_titulo_5.setText(QCoreApplication.translate("MainWindow", u" Fotos Incr\u00edveis", None))
-        self.d_subtitulo_5.setText(QCoreApplication.translate("MainWindow", u"Pequenas Lojas e Autonomos", None))
+        self.c_titulo_5.setText(QCoreApplication.translate("MainWindow", u"Fotos Incr\u00edveis", None))
+        self.d_subtitulo_5.setText(QCoreApplication.translate("MainWindow", u"   Pequenas Lojas e Autonomos", None))
         self.b_icone_titulo_5.setText("")
         self.a_icone_top_6.setText("")
         self.c_titulo_6.setText(QCoreApplication.translate("MainWindow", u"Maps", None))
         self.d_subtitulo_6.setText(QCoreApplication.translate("MainWindow", u"Pequenas Lojas e Autonomos", None))
         self.b_icone_titulo_6.setText("")
-        self.descricao_titulo_2.setText(QCoreApplication.translate("MainWindow", u"DESCRI\u00c7\u00c3O", None))
         self.descricao_texto_2.setText(QCoreApplication.translate("MainWindow", u"     Descubra, conecte e compartilhe com o Espa\u00e7o Digital Infinito. Desenvolvido para criadores, exploradores e inovadores, este ambiente oferece uma forma moderna de organizar e apresentar conte\u00fados diversos. \n"
 "\n"
 "Personalize sua \u00e1rea, convide outros usu\u00e1rios e crie experi\u00eancias \u00fanicas que refletem sua ess\u00eancia.\n"
@@ -985,6 +1004,7 @@ class Ui_MainWindow(object):
 "     -Integra\u00e7\u00e3o com redes e canais de comunica\u00e7\u00e3o\n"
 "\n"
 "     -Painel de estat\u00edsticas detalhadas para monitoramento de atividades", None))
+        self.descricao_titulo_2.setText(QCoreApplication.translate("MainWindow", u"DESCRI\u00c7\u00c3O", None))
         self.barra_widgets.setTabText(self.barra_widgets.indexOf(self.a_ProjetoWebSite), QCoreApplication.translate("MainWindow", u"Projeto Web Site", None))
         self.titulo.setText(QCoreApplication.translate("MainWindow", u"LOGMARKET", None))
         self.subtitulo.setText(QCoreApplication.translate("MainWindow", u"TERMINAL DE CONSULTA E CONTROLE DE ESTOQUE", None))
