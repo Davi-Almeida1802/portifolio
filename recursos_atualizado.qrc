@@ -1,0 +1,47 @@
+<RCC>
+  <qresource prefix="icones">
+    <file>facebook.png</file>
+    <file>github.png</file>
+    <file>instagram.png</file>
+    <file>camera.svg</file>
+    <file>photo.svg</file>
+    <file>globo.svg</file>
+    <file>pagina_web-2.png</file>
+    <file>login_web.png</file>
+    <file>pagina_web-1.png</file>
+    <file>shield.svg</file>
+    <file>check.svg</file>
+    <file>Projeto_2.png</file>
+    <file>Projeto_1.png</file>
+    <file>projeto_3.png</file>
+    <file>finance.svg</file>
+    <file>store.svg</file>
+    <file>ads_click.svg</file>
+    <file>finance.svg</file>
+    <file>store.svg</file>
+    <file>coding.png</file>
+    <file>bootstrap.png</file>
+    <file>html-5.png</file>
+    <file>js.png</file>
+    <file>github.png</file>
+    <file>php.png</file>
+    <file>css-3.png</file>
+    <file>python.png</file>
+    <file>banner.jpg</file>
+    <file>foto_perfil_1.jpeg</file>
+    <file>contact.svg</file>
+    <file>workness.svg</file>
+    <file>work.svg</file>
+    <file>work.svg</file>
+    <file>autor.jpg</file>
+    <file>help.svg</file>
+    <file>logout.svg</file>
+    <file>user.svg</file>
+    <file>favoritos.svg</file>
+    <file>close.svg</file>
+    <file>home.svg</file>
+    <file>menu.svg</file>
+    <file>search.svg</file>
+    <file>settings.svg</file>
+  </qresource>
+</RCC>
