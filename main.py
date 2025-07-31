@@ -1,6 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow
-from menu_projetos import Ui_MainWindow 
+from menu_projetos3 import Ui_MainWindow 
 import sprites 
 
 class App(QMainWindow):
