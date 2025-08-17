@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1367</width>
-    <height>920</height>
+    <height>720</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -19,7 +19,7 @@
   <property name="minimumSize">
    <size>
     <width>1367</width>
-    <height>920</height>
+    <height>700</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -616,1826 +616,261 @@ QPushButton:hover{
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
-       <property name="spacing">
-        <number>0</number>
-       </property>
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
-        <number>0</number>
-       </property>
        <item>
-        <widget class="QTabWidget" name="barra_widgets">
-         <property name="minimumSize">
+        <widget class="QFrame" name="frame">
+         <property name="maximumSize">
           <size>
-           <width>720</width>
-           <height>720</height>
+           <width>1237</width>
+           <height>150</height>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(200, 230, 255, 255), stop:1 rgba(240, 250, 255, 255));
-color: black;
-</string>
+          <string notr="true">QFrame{
+	background: transparent;
+}</string>
          </property>
-         <property name="tabShape">
-          <enum>QTabWidget::Triangular</enum>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
          </property>
-         <property name="currentIndex">
-          <number>0</number>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
          </property>
-         <property name="iconSize">
-          <size>
-           <width>16</width>
-           <height>16</height>
-          </size>
-         </property>
-         <property name="elideMode">
-          <enum>Qt::ElideNone</enum>
-         </property>
-         <widget class="QWidget" name="a_ProjetoWebSite">
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>512</x>
+            <y>0</y>
+            <width>300</width>
+            <height>150</height>
+           </rect>
+          </property>
           <property name="styleSheet">
-           <string notr="true">
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(155, 89, 182, 255), stop:1 rgba(245, 203, 255, 255));
+           <string notr="true">QLabel{
+	font: 24pt &quot;MS Shell Dlg 2&quot;;
+	background: transparent;
+}
 </string>
           </property>
-          <attribute name="title">
-           <string>Projeto Web Site</string>
-          </attribute>
-          <layout class="QVBoxLayout" name="verticalLayout_17">
-           <property name="spacing">
-            <number>0</number>
-           </property>
-           <property name="leftMargin">
-            <number>0</number>
-           </property>
-           <property name="topMargin">
-            <number>0</number>
-           </property>
-           <property name="rightMargin">
-            <number>0</number>
-           </property>
-           <property name="bottomMargin">
-            <number>0</number>
-           </property>
-           <item>
-            <widget class="QFrame" name="conteudo_2">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>0</height>
-              </size>
+          <property name="text">
+           <string>Meus Contatos</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+	background: transparent;
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QFrame" name="frame_3">
+            <property name="styleSheet">
+             <string notr="true">QFrame{
+	background: transparent;
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>575</x>
+               <y>62</y>
+               <width>50</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
              </property>
              <property name="styleSheet">
-              <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(85, 170, 255, 255), stop:1 rgba(255, 255, 255, 255));
-
-
-
-</string>
-             </property>
-             <property name="frameShape">
-              <enum>QFrame::NoFrame</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_12">
-              <property name="spacing">
-               <number>0</number>
-              </property>
-              <property name="leftMargin">
-               <number>0</number>
-              </property>
-              <property name="topMargin">
-               <number>0</number>
-              </property>
-              <property name="rightMargin">
-               <number>0</number>
-              </property>
-              <property name="bottomMargin">
-               <number>0</number>
-              </property>
-              <item>
-               <widget class="QFrame" name="container_2">
-                <property name="minimumSize">
-                 <size>
-                  <width>360</width>
-                  <height>328</height>
-                 </size>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">background-color: none;</string>
-                </property>
-                <property name="frameShape">
-                 <enum>QFrame::NoFrame</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_13">
-                 <property name="spacing">
-                  <number>0</number>
-                 </property>
-                 <property name="leftMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="topMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="rightMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="bottomMargin">
-                  <number>0</number>
-                 </property>
-                 <item>
-                  <widget class="QFrame" name="a_top_conteudo_2">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>1080</width>
-                     <height>320</height>
-                    </size>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>1920</width>
-                     <height>330</height>
-                    </size>
-                   </property>
-                   <property name="styleSheet">
-                    <string notr="true"/>
-                   </property>
-                   <property name="frameShape">
-                    <enum>QFrame::NoFrame</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <widget class="QFrame" name="frame_11">
-                    <property name="geometry">
-                     <rect>
-                      <x>433</x>
-                      <y>10</y>
-                      <width>350</width>
-                      <height>320</height>
-                     </rect>
-                    </property>
-                    <property name="minimumSize">
-                     <size>
-                      <width>350</width>
-                      <height>320</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>260</width>
-                      <height>300</height>
-                     </size>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">QFrame{
-	background-color: transparent;
-	background-image: url(:/icones/login_web.png);
-	border-radius: 10px;
-	border: 1px solid black;
-}
-
-QFrame:clicked{
-	height: 350px;
+              <string notr="true">QLabel{
+	image: url(:/icones/instagram.png);
 }</string>
-                    </property>
-                   </widget>
-                   <widget class="QFrame" name="frame_22">
-                    <property name="geometry">
-                     <rect>
-                      <x>140</x>
-                      <y>55</y>
-                      <width>265</width>
-                      <height>240</height>
-                     </rect>
-                    </property>
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">background-image: url(:/icones/pagina_web-1.png);
-background-color: transparent;
-border-radius: 10px;
-border: 1px solid black;
-</string>
-                    </property>
-                    <property name="frameShape">
-                     <enum>QFrame::StyledPanel</enum>
-                    </property>
-                    <property name="frameShadow">
-                     <enum>QFrame::Raised</enum>
-                    </property>
-                   </widget>
-                   <widget class="QFrame" name="frame_23">
-                    <property name="geometry">
-                     <rect>
-                      <x>810</x>
-                      <y>55</y>
-                      <width>265</width>
-                      <height>240</height>
-                     </rect>
-                    </property>
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">background-image: url(:/icones/pagina_web-2.png);
-background-color: transparent;
-border-radius: 10px;
-border: 1px solid black;</string>
-                    </property>
-                    <property name="frameShape">
-                     <enum>QFrame::NoFrame</enum>
-                    </property>
-                    <property name="frameShadow">
-                     <enum>QFrame::Raised</enum>
-                    </property>
-                   </widget>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QFrame" name="b_conteudo_central_2">
-                   <property name="styleSheet">
-                    <string notr="true">background-color: none;</string>
-                   </property>
-                   <property name="frameShape">
-                    <enum>QFrame::NoFrame</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_14">
-                    <property name="spacing">
-                     <number>0</number>
-                    </property>
-                    <property name="leftMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="topMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="rightMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
-                    </property>
-                    <item>
-                     <widget class="QFrame" name="a_titulo_subtitulo_2">
-                      <property name="minimumSize">
-                       <size>
-                        <width>1135</width>
-                        <height>100</height>
-                       </size>
-                      </property>
-                      <property name="maximumSize">
-                       <size>
-                        <width>16777215</width>
-                        <height>100</height>
-                       </size>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true"/>
-                      </property>
-                      <property name="frameShape">
-                       <enum>QFrame::NoFrame</enum>
-                      </property>
-                      <property name="frameShadow">
-                       <enum>QFrame::Raised</enum>
-                      </property>
-                      <widget class="QFrame" name="a_titulo_2">
-                       <property name="geometry">
-                        <rect>
-                         <x>0</x>
-                         <y>0</y>
-                         <width>1144</width>
-                         <height>48</height>
-                        </rect>
-                       </property>
-                       <property name="styleSheet">
-                        <string notr="true">background-color: none;</string>
-                       </property>
-                       <property name="frameShape">
-                        <enum>QFrame::NoFrame</enum>
-                       </property>
-                       <property name="frameShadow">
-                        <enum>QFrame::Raised</enum>
-                       </property>
-                       <layout class="QHBoxLayout" name="horizontalLayout_5">
-                        <property name="leftMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="topMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="rightMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="bottomMargin">
-                         <number>0</number>
-                        </property>
-                        <item>
-                         <widget class="QLabel" name="titulo_2">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>1135</width>
-                            <height>30</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>16777215</width>
-                            <height>16777215</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">color: #222;
-font: 63 italic 16pt &quot;Segoe UI Semibold&quot;;</string>
-                          </property>
-                          <property name="text">
-                           <string>PIXEL PHOTO</string>
-                          </property>
-                          <property name="alignment">
-                           <set>Qt::AlignCenter</set>
-                          </property>
-                         </widget>
-                        </item>
-                       </layout>
-                      </widget>
-                      <widget class="QFrame" name="b_subtitulo_2">
-                       <property name="geometry">
-                        <rect>
-                         <x>0</x>
-                         <y>54</y>
-                         <width>1155</width>
-                         <height>45</height>
-                        </rect>
-                       </property>
-                       <property name="minimumSize">
-                        <size>
-                         <width>0</width>
-                         <height>30</height>
-                        </size>
-                       </property>
-                       <property name="styleSheet">
-                        <string notr="true">background-color: none;</string>
-                       </property>
-                       <property name="frameShape">
-                        <enum>QFrame::NoFrame</enum>
-                       </property>
-                       <property name="frameShadow">
-                        <enum>QFrame::Raised</enum>
-                       </property>
-                       <layout class="QVBoxLayout" name="verticalLayout_15">
-                        <property name="leftMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="topMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="rightMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="bottomMargin">
-                         <number>0</number>
-                        </property>
-                        <item>
-                         <widget class="QLabel" name="subtitulo_2">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>1135</width>
-                            <height>25</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">font: 12pt &quot;Segoe UI&quot;;
-color: #222;</string>
-                          </property>
-                          <property name="text">
-                           <string>CONHECENDO AS MARAVILHAS DO MUNDO!</string>
-                          </property>
-                          <property name="alignment">
-                           <set>Qt::AlignHCenter|Qt::AlignTop</set>
-                          </property>
-                         </widget>
-                        </item>
-                       </layout>
-                      </widget>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QFrame" name="b_cards_e_descricao_2">
-                      <property name="sizePolicy">
-                       <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
-                        <horstretch>0</horstretch>
-                        <verstretch>0</verstretch>
-                       </sizepolicy>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">background-color: none;</string>
-                      </property>
-                      <property name="frameShape">
-                       <enum>QFrame::NoFrame</enum>
-                      </property>
-                      <property name="frameShadow">
-                       <enum>QFrame::Raised</enum>
-                      </property>
-                      <layout class="QVBoxLayout" name="verticalLayout_16">
-                       <item>
-                        <widget class="QWidget" name="a_cards_2" native="true">
-                         <property name="sizePolicy">
-                          <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
-                           <horstretch>0</horstretch>
-                           <verstretch>0</verstretch>
-                          </sizepolicy>
-                         </property>
-                         <property name="minimumSize">
-                          <size>
-                           <width>1130</width>
-                           <height>140</height>
-                          </size>
-                         </property>
-                         <property name="maximumSize">
-                          <size>
-                           <width>16777215</width>
-                           <height>250</height>
-                          </size>
-                         </property>
-                         <property name="sizeIncrement">
-                          <size>
-                           <width>0</width>
-                           <height>150</height>
-                          </size>
-                         </property>
-                         <widget class="QFrame" name="a_card_esquerdo_2">
-                          <property name="geometry">
-                           <rect>
-                            <x>180</x>
-                            <y>0</y>
-                            <width>172</width>
-                            <height>175</height>
-                           </rect>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>162</width>
-                            <height>175</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">background-color: #a1c1e1;
-border: 1px solid #7aa6d4;
-border-radius: 10px;</string>
-                          </property>
-                          <property name="frameShape">
-                           <enum>QFrame::StyledPanel</enum>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Raised</enum>
-                          </property>
-                          <widget class="QLabel" name="a_icone_top_4">
-                           <property name="geometry">
-                            <rect>
-                             <x>56</x>
-                             <y>15</y>
-                             <width>60</width>
-                             <height>60</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/photo.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="c_titulo_4">
-                           <property name="geometry">
-                            <rect>
-                             <x>22</x>
-                             <y>100</y>
-                             <width>145</width>
-                             <height>30</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-font: 12pt &quot;Segoe UI&quot;;
-color: #222;
-border-top: 1px solid #7aa6d4;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>Coleção de Registros</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="d_subtitulo_4">
-                           <property name="geometry">
-                            <rect>
-                             <x>5</x>
-                             <y>130</y>
-                             <width>162</width>
-                             <height>30</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>     Pequenas Lojas e Autonomos</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="b_icone_titulo_4">
-                           <property name="geometry">
-                            <rect>
-                             <x>2</x>
-                             <y>108</y>
-                             <width>21</width>
-                             <height>16</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/check.svg);
-image: url(:/icones/shield.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                         </widget>
-                         <widget class="QFrame" name="b_card_centro_2">
-                          <property name="geometry">
-                           <rect>
-                            <x>470</x>
-                            <y>0</y>
-                            <width>172</width>
-                            <height>175</height>
-                           </rect>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>162</width>
-                            <height>120</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">background-color: #a1c1e1;
-border: 1px solid #7aa6d4;
-border-radius: 10px;</string>
-                          </property>
-                          <property name="frameShape">
-                           <enum>QFrame::StyledPanel</enum>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Raised</enum>
-                          </property>
-                          <widget class="QLabel" name="a_icone_top_5">
-                           <property name="geometry">
-                            <rect>
-                             <x>56</x>
-                             <y>15</y>
-                             <width>60</width>
-                             <height>60</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/camera.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="c_titulo_5">
-                           <property name="geometry">
-                            <rect>
-                             <x>15</x>
-                             <y>100</y>
-                             <width>152</width>
-                             <height>30</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-font: 12pt &quot;Segoe UI&quot;;
-color: #222;
-border-top: 1px solid #7aa6d4;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>Fotos Incríveis</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="d_subtitulo_5">
-                           <property name="geometry">
-                            <rect>
-                             <x>5</x>
-                             <y>130</y>
-                             <width>162</width>
-                             <height>30</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>   Pequenas Lojas e Autonomos</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="b_icone_titulo_5">
-                           <property name="geometry">
-                            <rect>
-                             <x>20</x>
-                             <y>108</y>
-                             <width>21</width>
-                             <height>16</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/check.svg);
-image: url(:/icones/shield.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                         </widget>
-                         <widget class="QFrame" name="c_card_direito_2">
-                          <property name="geometry">
-                           <rect>
-                            <x>744</x>
-                            <y>0</y>
-                            <width>172</width>
-                            <height>175</height>
-                           </rect>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>162</width>
-                            <height>175</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">background-color: #a1c1e1;
-border: 1px solid #7aa6d4;
-border-radius: 10px;</string>
-                          </property>
-                          <property name="frameShape">
-                           <enum>QFrame::StyledPanel</enum>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Raised</enum>
-                          </property>
-                          <widget class="QLabel" name="a_icone_top_6">
-                           <property name="geometry">
-                            <rect>
-                             <x>56</x>
-                             <y>15</y>
-                             <width>60</width>
-                             <height>60</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/globo.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="c_titulo_6">
-                           <property name="geometry">
-                            <rect>
-                             <x>20</x>
-                             <y>100</y>
-                             <width>142</width>
-                             <height>30</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-font: 12pt &quot;Segoe UI&quot;;
-color: #222;
-border-top: 1px solid #7aa6d4;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>Maps</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="d_subtitulo_6">
-                           <property name="geometry">
-                            <rect>
-                             <x>5</x>
-                             <y>130</y>
-                             <width>162</width>
-                             <height>30</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>Pequenas Lojas e Autonomos</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="b_icone_titulo_6">
-                           <property name="geometry">
-                            <rect>
-                             <x>50</x>
-                             <y>108</y>
-                             <width>21</width>
-                             <height>16</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/check.svg);
-image: url(:/icones/shield.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                         </widget>
-                        </widget>
-                       </item>
-                       <item>
-                        <widget class="Line" name="a_linha_2">
-                         <property name="styleSheet">
-                          <string notr="true"/>
-                         </property>
-                         <property name="orientation">
-                          <enum>Qt::Horizontal</enum>
-                         </property>
-                        </widget>
-                       </item>
-                       <item>
-                        <widget class="QFrame" name="c_descricao_texto_2">
-                         <property name="frameShape">
-                          <enum>QFrame::NoFrame</enum>
-                         </property>
-                         <property name="frameShadow">
-                          <enum>QFrame::Raised</enum>
-                         </property>
-                         <widget class="QLabel" name="descricao_texto_2">
-                          <property name="geometry">
-                           <rect>
-                            <x>1</x>
-                            <y>32</y>
-                            <width>1119</width>
-                            <height>251</height>
-                           </rect>
-                          </property>
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>1080</width>
-                            <height>220</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>16777215</width>
-                            <height>275</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">font: 9pt &quot;Segoe UI&quot;;</string>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Plain</enum>
-                          </property>
-                          <property name="text">
-                           <string>     Descubra, conecte e compartilhe com o Espaço Digital Infinito. Desenvolvido para criadores, exploradores e inovadores, este ambiente oferece uma forma moderna de organizar e apresentar conteúdos diversos. 
-
-Personalize sua área, convide outros usuários e crie experiências únicas que refletem sua essência.
-
-Destaques da plataforma:
-
-     -Criação ilimitada de coleções personalizadas
-
-     -Organização por tags, tópicos e categorias dinâmicas
-
-     -Layout responsivo com navegação fluida
-
-     -Integração com redes e canais de comunicação
-
-     -Painel de estatísticas detalhadas para monitoramento de atividades</string>
-                          </property>
-                          <property name="alignment">
-                           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-                          </property>
-                         </widget>
-                         <widget class="QLabel" name="descricao_titulo_2">
-                          <property name="geometry">
-                           <rect>
-                            <x>1</x>
-                            <y>1</y>
-                            <width>100</width>
-                            <height>25</height>
-                           </rect>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>100</width>
-                            <height>25</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>100</width>
-                            <height>25</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">color: #222;
-font: 12pt &quot;Segoe UI&quot;;</string>
-                          </property>
-                          <property name="text">
-                           <string>DESCRIÇÃO</string>
-                          </property>
-                         </widget>
-                        </widget>
-                       </item>
-                      </layout>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-             </layout>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
             </widget>
-           </item>
-          </layout>
-         </widget>
-         <widget class="QWidget" name="b_ProjetodeSoftware">
-          <attribute name="title">
-           <string>Projeto de Software</string>
-          </attribute>
-          <layout class="QVBoxLayout" name="verticalLayout_6">
-           <property name="spacing">
-            <number>0</number>
-           </property>
-           <property name="leftMargin">
-            <number>0</number>
-           </property>
-           <property name="topMargin">
-            <number>0</number>
-           </property>
-           <property name="rightMargin">
-            <number>0</number>
-           </property>
-           <property name="bottomMargin">
-            <number>0</number>
-           </property>
-           <item>
-            <widget class="QFrame" name="conteudo">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>0</height>
-              </size>
+            <widget class="QPushButton" name="pushButton">
+             <property name="geometry">
+              <rect>
+               <x>569</x>
+               <y>60</y>
+               <width>191</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
              </property>
              <property name="styleSheet">
-              <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(85, 170, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
-             </property>
-             <property name="frameShape">
-              <enum>QFrame::NoFrame</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_7">
-              <property name="spacing">
-               <number>0</number>
-              </property>
-              <property name="leftMargin">
-               <number>0</number>
-              </property>
-              <property name="topMargin">
-               <number>0</number>
-              </property>
-              <property name="rightMargin">
-               <number>0</number>
-              </property>
-              <property name="bottomMargin">
-               <number>0</number>
-              </property>
-              <item>
-               <widget class="QFrame" name="container">
-                <property name="minimumSize">
-                 <size>
-                  <width>360</width>
-                  <height>328</height>
-                 </size>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">background-color: none;</string>
-                </property>
-                <property name="frameShape">
-                 <enum>QFrame::NoFrame</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_9">
-                 <property name="spacing">
-                  <number>0</number>
-                 </property>
-                 <property name="leftMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="topMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="rightMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="bottomMargin">
-                  <number>0</number>
-                 </property>
-                 <item>
-                  <widget class="QFrame" name="a_top_conteudo">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>1080</width>
-                     <height>320</height>
-                    </size>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>1920</width>
-                     <height>330</height>
-                    </size>
-                   </property>
-                   <property name="styleSheet">
-                    <string notr="true">background-color: transparent;</string>
-                   </property>
-                   <property name="frameShape">
-                    <enum>QFrame::StyledPanel</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <widget class="QFrame" name="frame_10">
-                    <property name="geometry">
-                     <rect>
-                      <x>393</x>
-                      <y>10</y>
-                      <width>350</width>
-                      <height>320</height>
-                     </rect>
-                    </property>
-                    <property name="minimumSize">
-                     <size>
-                      <width>350</width>
-                      <height>320</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>260</width>
-                      <height>300</height>
-                     </size>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">QFrame{
-	background-color: transparent;
-	background-image: url(:/icones/Projeto_1.png);
-	border-radius: 10px;
-	border: 1px solid black;
+              <string notr="true">QPushButton{
+	font: 63 18pt &quot;Segoe UI Semibold&quot;;
+	background: transparent;
+	margin-left: 65px;
 }
+QPushButton:hover{
+	color: rgb(0, 153, 255);
+	
+	font: 63 19pt &quot;Segoe UI Semibold&quot;;
 
-QFrame:clicked{
-	height: 350px;
-}</string>
-                    </property>
-                   </widget>
-                   <widget class="QFrame" name="frame_20">
-                    <property name="geometry">
-                     <rect>
-                      <x>110</x>
-                      <y>55</y>
-                      <width>265</width>
-                      <height>240</height>
-                     </rect>
-                    </property>
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">background-image: url(:/icones/Projeto_2.png);
-background-color: transparent;
-border-radius: 10px;
-border: 1px solid black;
-</string>
-                    </property>
-                    <property name="frameShape">
-                     <enum>QFrame::StyledPanel</enum>
-                    </property>
-                    <property name="frameShadow">
-                     <enum>QFrame::Raised</enum>
-                    </property>
-                   </widget>
-                   <widget class="QFrame" name="frame_21">
-                    <property name="geometry">
-                     <rect>
-                      <x>760</x>
-                      <y>55</y>
-                      <width>265</width>
-                      <height>240</height>
-                     </rect>
-                    </property>
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">background-image: url(:/icones/projeto_3.png);
-background-color: transparent;
-border-radius: 10px;
-border: 1px solid black;</string>
-                    </property>
-                    <property name="frameShape">
-                     <enum>QFrame::NoFrame</enum>
-                    </property>
-                    <property name="frameShadow">
-                     <enum>QFrame::Raised</enum>
-                    </property>
-                   </widget>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QFrame" name="b_conteudo_central">
-                   <property name="styleSheet">
-                    <string notr="true">background-color: none;</string>
-                   </property>
-                   <property name="frameShape">
-                    <enum>QFrame::NoFrame</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_8">
-                    <property name="spacing">
-                     <number>0</number>
-                    </property>
-                    <property name="leftMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="topMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="rightMargin">
-                     <number>0</number>
-                    </property>
-                    <property name="bottomMargin">
-                     <number>0</number>
-                    </property>
-                    <item>
-                     <widget class="QFrame" name="a_titulo_subtitulo">
-                      <property name="minimumSize">
-                       <size>
-                        <width>1135</width>
-                        <height>100</height>
-                       </size>
-                      </property>
-                      <property name="maximumSize">
-                       <size>
-                        <width>16777215</width>
-                        <height>100</height>
-                       </size>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true"/>
-                      </property>
-                      <property name="frameShape">
-                       <enum>QFrame::NoFrame</enum>
-                      </property>
-                      <property name="frameShadow">
-                       <enum>QFrame::Raised</enum>
-                      </property>
-                      <widget class="QFrame" name="a_titulo">
-                       <property name="geometry">
-                        <rect>
-                         <x>0</x>
-                         <y>0</y>
-                         <width>1144</width>
-                         <height>48</height>
-                        </rect>
-                       </property>
-                       <property name="styleSheet">
-                        <string notr="true">background-color: transparent;</string>
-                       </property>
-                       <property name="frameShape">
-                        <enum>QFrame::NoFrame</enum>
-                       </property>
-                       <property name="frameShadow">
-                        <enum>QFrame::Raised</enum>
-                       </property>
-                       <layout class="QHBoxLayout" name="horizontalLayout_4">
-                        <property name="spacing">
-                         <number>0</number>
-                        </property>
-                        <property name="leftMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="topMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="rightMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="bottomMargin">
-                         <number>0</number>
-                        </property>
-                        <item>
-                         <widget class="QLabel" name="titulo">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>1135</width>
-                            <height>30</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>16777215</width>
-                            <height>16777215</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">font: 63 italic 16pt &quot;Segoe UI Semibold&quot;;
-color: #222;</string>
-                          </property>
-                          <property name="text">
-                           <string>LOGMARKET</string>
-                          </property>
-                          <property name="alignment">
-                           <set>Qt::AlignCenter</set>
-                          </property>
-                         </widget>
-                        </item>
-                       </layout>
-                      </widget>
-                      <widget class="QFrame" name="b_subtitulo">
-                       <property name="geometry">
-                        <rect>
-                         <x>0</x>
-                         <y>54</y>
-                         <width>1155</width>
-                         <height>45</height>
-                        </rect>
-                       </property>
-                       <property name="minimumSize">
-                        <size>
-                         <width>0</width>
-                         <height>30</height>
-                        </size>
-                       </property>
-                       <property name="styleSheet">
-                        <string notr="true">background-color: transparent;</string>
-                       </property>
-                       <property name="frameShape">
-                        <enum>QFrame::StyledPanel</enum>
-                       </property>
-                       <property name="frameShadow">
-                        <enum>QFrame::Raised</enum>
-                       </property>
-                       <layout class="QVBoxLayout" name="verticalLayout_11">
-                        <property name="spacing">
-                         <number>0</number>
-                        </property>
-                        <property name="leftMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="topMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="rightMargin">
-                         <number>0</number>
-                        </property>
-                        <property name="bottomMargin">
-                         <number>0</number>
-                        </property>
-                        <item>
-                         <widget class="QLabel" name="subtitulo">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>1135</width>
-                            <height>25</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">font: 12pt &quot;Segoe UI&quot;;
-color: #222;</string>
-                          </property>
-                          <property name="text">
-                           <string>TERMINAL DE CONSULTA E CONTROLE DE ESTOQUE</string>
-                          </property>
-                          <property name="alignment">
-                           <set>Qt::AlignHCenter|Qt::AlignTop</set>
-                          </property>
-                         </widget>
-                        </item>
-                       </layout>
-                      </widget>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QFrame" name="b_cards_e_descricao">
-                      <property name="styleSheet">
-                       <string notr="true">background-color: transparent;</string>
-                      </property>
-                      <property name="frameShape">
-                       <enum>QFrame::NoFrame</enum>
-                      </property>
-                      <property name="frameShadow">
-                       <enum>QFrame::Raised</enum>
-                      </property>
-                      <layout class="QVBoxLayout" name="verticalLayout_10">
-                       <property name="spacing">
-                        <number>6</number>
-                       </property>
-                       <property name="leftMargin">
-                        <number>9</number>
-                       </property>
-                       <property name="topMargin">
-                        <number>9</number>
-                       </property>
-                       <property name="rightMargin">
-                        <number>9</number>
-                       </property>
-                       <property name="bottomMargin">
-                        <number>0</number>
-                       </property>
-                       <item>
-                        <widget class="QWidget" name="a_cards" native="true">
-                         <property name="minimumSize">
-                          <size>
-                           <width>1800</width>
-                           <height>140</height>
-                          </size>
-                         </property>
-                         <property name="maximumSize">
-                          <size>
-                           <width>16777215</width>
-                           <height>250</height>
-                          </size>
-                         </property>
-                         <property name="sizeIncrement">
-                          <size>
-                           <width>0</width>
-                           <height>150</height>
-                          </size>
-                         </property>
-                         <widget class="QFrame" name="a_card_esquerdo">
-                          <property name="geometry">
-                           <rect>
-                            <x>180</x>
-                            <y>0</y>
-                            <width>192</width>
-                            <height>220</height>
-                           </rect>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>180</width>
-                            <height>220</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">background-color: #a1c1e1;
-border: 1px solid #7aa6d4;
-border-radius: 10px;</string>
-                          </property>
-                          <property name="frameShape">
-                           <enum>QFrame::StyledPanel</enum>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Raised</enum>
-                          </property>
-                          <widget class="QLabel" name="a_icone_top">
-                           <property name="geometry">
-                            <rect>
-                             <x>66</x>
-                             <y>15</y>
-                             <width>60</width>
-                             <height>60</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/store.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="c_titulo">
-                           <property name="geometry">
-                            <rect>
-                             <x>10</x>
-                             <y>150</y>
-                             <width>171</width>
-                             <height>30</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-font: 12pt &quot;Segoe UI&quot;;
-color: #222;
-border-top: 1px solid #7aa6d4;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>     Ideal para o Comércio</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignBottom|Qt::AlignHCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="d_subtitulo">
-                           <property name="geometry">
-                            <rect>
-                             <x>5</x>
-                             <y>175</y>
-                             <width>180</width>
-                             <height>41</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>Pequenas Lojas e Autonomos</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="b_icone_titulo">
-                           <property name="geometry">
-                            <rect>
-                             <x>5</x>
-                             <y>160</y>
-                             <width>21</width>
-                             <height>16</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/check.svg);
-image: url(:/icones/shield.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                         </widget>
-                         <widget class="QFrame" name="b_card_centro">
-                          <property name="geometry">
-                           <rect>
-                            <x>470</x>
-                            <y>0</y>
-                            <width>192</width>
-                            <height>220</height>
-                           </rect>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>192</width>
-                            <height>220</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">background-color: #a1c1e1;
-border: 1px solid #7aa6d4;
-border-radius: 10px;</string>
-                          </property>
-                          <property name="frameShape">
-                           <enum>QFrame::StyledPanel</enum>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Raised</enum>
-                          </property>
-                          <widget class="QLabel" name="a_icone_top_2">
-                           <property name="geometry">
-                            <rect>
-                             <x>66</x>
-                             <y>15</y>
-                             <width>60</width>
-                             <height>60</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/ads_click.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="c_titulo_2">
-                           <property name="geometry">
-                            <rect>
-                             <x>10</x>
-                             <y>150</y>
-                             <width>171</width>
-                             <height>30</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-font: 12pt &quot;Segoe UI&quot;;
-color: #222;
-border-top: 1px solid #7aa6d4;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>       Poucos Clicks</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignBottom|Qt::AlignHCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="d_subtitulo_2">
-                           <property name="geometry">
-                            <rect>
-                             <x>5</x>
-                             <y>175</y>
-                             <width>180</width>
-                             <height>41</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>Pequenas Lojas e Autonomos</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="b_icone_titulo_2">
-                           <property name="geometry">
-                            <rect>
-                             <x>40</x>
-                             <y>160</y>
-                             <width>21</width>
-                             <height>16</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/check.svg);
-image: url(:/icones/shield.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                         </widget>
-                         <widget class="QFrame" name="c_card_direito">
-                          <property name="geometry">
-                           <rect>
-                            <x>744</x>
-                            <y>0</y>
-                            <width>192</width>
-                            <height>220</height>
-                           </rect>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>192</width>
-                            <height>220</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">background-color: #a1c1e1;
-border: 1px solid #7aa6d4;
-border-radius: 10px;</string>
-                          </property>
-                          <property name="frameShape">
-                           <enum>QFrame::StyledPanel</enum>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Raised</enum>
-                          </property>
-                          <widget class="QLabel" name="a_icone_top_3">
-                           <property name="geometry">
-                            <rect>
-                             <x>66</x>
-                             <y>15</y>
-                             <width>60</width>
-                             <height>60</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/finance.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="c_titulo_3">
-                           <property name="geometry">
-                            <rect>
-                             <x>10</x>
-                             <y>150</y>
-                             <width>175</width>
-                             <height>30</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-font: 12pt &quot;Segoe UI&quot;;
-color: #222;
-border-top: 1px solid #7aa6d4;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>     Impulsionando Vendas</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignBottom|Qt::AlignHCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="d_subtitulo_3">
-                           <property name="geometry">
-                            <rect>
-                             <x>5</x>
-                             <y>175</y>
-                             <width>180</width>
-                             <height>41</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">border: none;
-border-radius: none;</string>
-                           </property>
-                           <property name="text">
-                            <string>Pequenas Lojas e Autonomos</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                          <widget class="QLabel" name="b_icone_titulo_3">
-                           <property name="geometry">
-                            <rect>
-                             <x>5</x>
-                             <y>160</y>
-                             <width>21</width>
-                             <height>16</height>
-                            </rect>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">image: url(:/icones/check.svg);
-image: url(:/icones/shield.svg);
-border: none;</string>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                          </widget>
-                         </widget>
-                        </widget>
-                       </item>
-                       <item>
-                        <widget class="Line" name="a_linha">
-                         <property name="styleSheet">
-                          <string notr="true"/>
-                         </property>
-                         <property name="orientation">
-                          <enum>Qt::Horizontal</enum>
-                         </property>
-                        </widget>
-                       </item>
-                       <item>
-                        <widget class="QFrame" name="b_descricao_titulo">
-                         <property name="minimumSize">
-                          <size>
-                           <width>0</width>
-                           <height>25</height>
-                          </size>
-                         </property>
-                         <property name="maximumSize">
-                          <size>
-                           <width>16777215</width>
-                           <height>25</height>
-                          </size>
-                         </property>
-                         <property name="frameShape">
-                          <enum>QFrame::NoFrame</enum>
-                         </property>
-                         <property name="frameShadow">
-                          <enum>QFrame::Raised</enum>
-                         </property>
-                         <widget class="QLabel" name="descricao_titulo">
-                          <property name="geometry">
-                           <rect>
-                            <x>0</x>
-                            <y>0</y>
-                            <width>101</width>
-                            <height>25</height>
-                           </rect>
-                          </property>
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>0</width>
-                            <height>25</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>16777215</width>
-                            <height>25</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">color: #222;
-font: 12pt &quot;Segoe UI&quot;;</string>
-                          </property>
-                          <property name="text">
-                           <string>DESCRIÇÃO</string>
-                          </property>
-                         </widget>
-                        </widget>
-                       </item>
-                       <item>
-                        <widget class="QFrame" name="c_descricao_texto">
-                         <property name="frameShape">
-                          <enum>QFrame::StyledPanel</enum>
-                         </property>
-                         <property name="frameShadow">
-                          <enum>QFrame::Raised</enum>
-                         </property>
-                         <widget class="QLabel" name="descricao_texto">
-                          <property name="geometry">
-                           <rect>
-                            <x>0</x>
-                            <y>0</y>
-                            <width>1130</width>
-                            <height>300</height>
-                           </rect>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>1080</width>
-                            <height>300</height>
-                           </size>
-                          </property>
-                          <property name="maximumSize">
-                           <size>
-                            <width>16777215</width>
-                            <height>275</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">font: 9pt &quot;Segoe UI&quot;;
-color: black;</string>
-                          </property>
-                          <property name="frameShadow">
-                           <enum>QFrame::Plain</enum>
-                          </property>
-                          <property name="text">
-                           <string>     O LOGMARKET é uma solução completa para gestão comercial, desenvolvida especialmente para empresas que desejam otimizar o processo de cadastro, consulta e venda de produtos.
-Com uma interface intuitiva, o sistema permite que você registre novos itens rapidamente, mantenha o controle detalhado do seu catálogo e realize vendas de maneira prática e segura.
-Principais recursos:
-
-     -Cadastro de produtos com informações detalhadas, imagens e categorias personalizadas.
-
-     -Consulta avançada por filtros, códigos ou descrições, facilitando a localização de produtos no estoque.
-
-     -Processo de vendas integrado, com emissão de comprovantes e relatórios de transações.
-
-     -Controle de estoque atualizado em tempo real.
-
-     -Geração de relatórios gerenciais e indicadores de desempenho.
-
-Voltado para comércios de diferentes portes, o LOGMARKET proporciona mais agilidade no atendimento, redução de erros operacionais e maior controle sobre todas as operações comerciais.</string>
-                          </property>
-                          <property name="alignment">
-                           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-                          </property>
-                         </widget>
-                        </widget>
-                       </item>
-                      </layout>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-             </layout>
+}
+	</string>
+             </property>
+             <property name="text">
+              <string>Instagram</string>
+             </property>
             </widget>
-           </item>
-          </layout>
-         </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_4">
+            <property name="styleSheet">
+             <string notr="true">QFrame{
+	background: transparent;
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QLabel" name="label_4">
+             <property name="geometry">
+              <rect>
+               <x>575</x>
+               <y>62</y>
+               <width>50</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLabel{
+	image: url(:/icones/facebook.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="geometry">
+              <rect>
+               <x>569</x>
+               <y>60</y>
+               <width>190</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	font: 63 18pt &quot;Segoe UI Semibold&quot;;
+	background: transparent;
+	margin-left: 60px;
+}
+QPushButton:hover{
+	color: rgb(0, 153, 255);
+	
+	font: 63 19pt &quot;Segoe UI Semibold&quot;;
+
+}</string>
+             </property>
+             <property name="text">
+              <string>Facebook</string>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="styleSheet">
+             <string notr="true">QFrame{
+	background: transparent;
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QLabel" name="label_7">
+             <property name="geometry">
+              <rect>
+               <x>575</x>
+               <y>62</y>
+               <width>50</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLabel{
+	image: url(:/icones/github.png);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="geometry">
+              <rect>
+               <x>569</x>
+               <y>60</y>
+               <width>190</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	font: 63 18pt &quot;Segoe UI Semibold&quot;;
+	background: transparent;
+	margin-left: 30px;
+}
+QPushButton:hover{
+	color: rgb(0, 153, 255);
+	
+	font: 63 19pt &quot;Segoe UI Semibold&quot;;
+
+}</string>
+             </property>
+             <property name="text">
+              <string>Github</string>
+             </property>
+            </widget>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
       </layout>
